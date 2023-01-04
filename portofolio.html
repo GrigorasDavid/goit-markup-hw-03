@@ -16,54 +16,67 @@
   </head>
   <body>
     <header class="page-header">
-      <a href="./index.html" class="logo-link link"
-        ><span class="logo-item">Web</span>Studio</a
-      >
-      <nav>
-        <ul class="unstyled-list">
-          <li>
-            <a class="main-nav-link link" href="studio.html" target="_blank"
-              >Studio</a
+      <div class="container">
+        <a href="./index.html" class="logo-link link"
+          ><span class="logo-item">Web</span>Studio</a
+        >
+        <nav class="nav-list">
+          <ul class="main-nav-list unstyled-list">
+            <li class="main-nav-item">
+              <a class="main-nav-link link" href="studio.html" target="_blank"
+                >Studio</a
+              >
+            </li>
+            <li class="main-nav-item">
+              <a
+                class="main-nav-link link"
+                href="portofolio.html"
+                target="_blank"
+                >Portofolio</a
+              >
+            </li>
+            <li class="main-nav-item">
+              <a class="main-nav-link link" href="Contacts.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contact-list unstyled-list">
+          <li class="contact-list-item">
+            <a class="contact-nav link" href="info@devstudio.com"
+              >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a class="main-nav-link link" href="portofolio.html" target="_blank"
-              >Portofolio</a
+          <li class="contact-list-item">
+            <a class="contact-nav link" href="tel:+12127724150"
+              >+1 212-772-4150</a
             >
-          </li>
-          <li>
-            <a class="main-nav-link link" href="Contacts.html">Contacts</a>
           </li>
         </ul>
-      </nav>
-      <ul class="unstyled-list">
-        <li>
-          <a class="contact-nav link" href="info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="contact-nav link" href="tel:+12127724150"
-            >+1 212-772-4150</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
-    <main>
-      <section>
-        <ul class="unstyled-list">
-          <li><button type="button" class="but-all">All</button></li>
-          <li><button type="button" class="but-all">Web-sites</button></li>
-          <li><button type="button" class="but-all">Apps</button></li>
-          <li><button type="button" class="but-all">Design</button></li>
-          <li>
+    <main class="portofolio-section">
+      <section class="section">
+        <ul class="unstyled-list portofolio-section">
+          <li class="portofolio-section-button">
+            <button type="button" class="but-all">All</button>
+          </li>
+          <li class="portofolio-section-button">
+            <button type="button" class="but-all">Web-sites</button>
+          </li>
+          <li class="portofolio-section-button">
+            <button type="button" class="but-all">Apps</button>
+          </li>
+          <li class="portofolio-section-button">
+            <button type="button" class="but-all">Design</button>
+          </li>
+          <li class="portofolio-section-button">
             <button type="button" class="but-all">Marketing</button>
           </li>
         </ul>
       </section>
       <div class="container">
         <section>
-          <ul class="unstyled-list cards">
+          <ul class="unstyled-list photo-cards">
             <li class="card">
               <img
                 src="images/foto1.jpg"
@@ -71,8 +84,10 @@
                 width="270"
                 height="260"
               />
-              <h4 class="title-foto">Technoduck</h4>
-              <p class="text-foto">Web-site</p>
+              <div class="cards">
+                <h4 class="title-foto">Technoduck</h4>
+                <p class="text-foto">Web-site</p>
+              </div>
             </li>
             <li class="card">
               <img
@@ -81,8 +96,10 @@
                 width="270"
                 height="260"
               />
-              <h4 class="title-foto">Poster New Orlean vs Golden Star</h4>
-              <p class="text-foto">Design</p>
+              <div class="cards">
+                <h4 class="title-foto">Poster New Orlean vs Golden Star</h4>
+                <p class="text-foto">Design</p>
+              </div>
             </li>
             <li class="card">
               <img
@@ -91,8 +108,10 @@
                 width="270"
                 height="260"
               />
-              <h4 class="title-foto">Seafood Restaurant</h4>
-              <p class="text-foto">Apps</p>
+              <div class="cards">
+                <h4 class="title-foto">Seafood Restaurant</h4>
+                <p class="text-foto">Apps</p>
+              </div>
             </li>
             <li class="card">
               <img
@@ -101,8 +120,10 @@
                 width="270"
                 height="260"
               />
-              <h4 class="title-foto">Project Prime</h4>
-              <p class="text-foto">Marketing</p>
+              <div class="cards">
+                <h4 class="title-foto">Project Prime</h4>
+                <p class="text-foto">Marketing</p>
+              </div>
             </li>
             <li class="card">
               <img
@@ -111,8 +132,10 @@
                 width="270"
                 height="260"
               />
-              <h4 class="title-foto">Project Boxes</h4>
-              <p class="text-foto">Apps</p>
+              <div class="cards">
+                <h4 class="title-foto">Project Boxes</h4>
+                <p class="text-foto">Apps</p>
+              </div>
             </li>
             <li class="card">
               <img
@@ -121,8 +144,10 @@
                 width="270"
                 height="260"
               />
-              <h4 class="title-foto">Inspiration has no Borders</h4>
-              <p class="text-foto">Web-site</p>
+              <div class="cards">
+                <h4 class="title-foto">Inspiration has no Borders</h4>
+                <p class="text-foto">Web-site</p>
+              </div>
             </li>
             <li class="card">
               <img
@@ -131,8 +156,10 @@
                 width="270"
                 height="260"
               />
-              <h4 class="title-foto">Limited Edition</h4>
-              <p class="text-foto">Design</p>
+              <div class="cards">
+                <h4 class="title-foto">Limited Edition</h4>
+                <p class="text-foto">Design</p>
+              </div>
             </li>
             <li class="card">
               <img
@@ -141,8 +168,10 @@
                 width="270"
                 height="260"
               />
-              <h4 class="title-foto">Project LAB</h4>
-              <p class="text-foto">Marketing</p>
+              <div class="cards">
+                <h4 class="title-foto">Project LAB</h4>
+                <p class="text-foto">Marketing</p>
+              </div>
             </li>
             <li class="card">
               <img
@@ -151,12 +180,14 @@
                 width="270"
                 height="260"
               />
-              <h4 class="title-foto">Growing Business</h4>
-              <p class="text-foto">Apps</p>
+              <div class="cards">
+                <h4 class="title-foto">Growing Business</h4>
+                <p class="text-foto">Apps</p>
+              </div>
             </li>
           </ul>
+          </div>
         </section>
-      </div>
     </main>
     <!-- Footer section -->
     <footer class="footer-section">

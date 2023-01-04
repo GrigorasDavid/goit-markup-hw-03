@@ -26,7 +26,7 @@ body {
 
 .container {
   width: 1200px;
-  margin: auto;
+  margin: 0px auto;
 }
 
 .grey-bg {
@@ -87,9 +87,9 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  margin-right: 93px;
-  margin-top: 24px;
-  margin-bottom: 25px;
+  padding-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo-item {
@@ -132,6 +132,9 @@ body {
 
 .principal-title {
   background-color: #2f303a;
+}
+
+.principal-title {
   display: block;
   text-align: center;
   padding-top: 200px;
@@ -142,15 +145,12 @@ body {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
-  margin: 200 452 280 452;
 }
 
-.button-title,
-.button-title:hover,
-.button-title:focus {
+.button-title {
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
@@ -161,11 +161,18 @@ body {
   cursor: pointer;
 }
 
+.button-title,
+.button-title:hover,
+.button-title:focus {
+  background-color: #188ce8;
+}
+
 .button-title {
   align-items: center;
+  border-radius: 4px;
   border: none;
   justify-content: space-around;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 [type="button"] {
   border-radius: 4px;
@@ -176,10 +183,13 @@ body {
   padding-right: 20px;
 }
 
+.main-section {
+  background-color: #e5e5e5;
+}
+
 /* Qualities */
 
 .qualities {
-  width: 1200px;
   margin: 0 auto;
   padding: 94px 0;
 }
@@ -244,9 +254,9 @@ body {
 /* Our team */
 
 .our-team-section {
-  width: 1200px;
   margin: 0 auto;
   padding: 94px 0;
+  background-color: #f5f4fa;
 }
 
 .team-list {
@@ -320,6 +330,30 @@ body {
   line-height: 1.71;
 }
 
+.footer-section {
+  padding: 60px 0px;
+}
+
+.adrees-nav {
+  margin-top: 28px;
+  gap: 10px;
+}
+
+.footer-list {
+  flex-direction: column;
+}
+
+.footer-list > .footer-list-item {
+  margin-bottom: 10px;
+}
+
+.footer-list-item {
+  flex-basis: 270px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  text-align: start;
+}
+
 .footer-contacts:focus,
 .footer-contacts:active,
 .footer-contacts:hover {
@@ -333,6 +367,9 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  border-radius: 4px;
+  padding: 6px 22px;
+  line-height: 26px;
 }
 
 .but-all:hover,
@@ -350,6 +387,20 @@ body {
   letter-spacing: 0.06em;
 }
 
+.potofolio-section {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 56px;
+  justify-content: center;
+}
+
+.portofolio-section-button {
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  text-align: center;
+}
+
 .text-foto {
   color: var(--text-color);
   font-weight: 400;
@@ -357,8 +408,29 @@ body {
   line-height: 1.87;
 }
 
-.cards {
+.section {
+  padding: 94px 0px;
+  border-top: 1px solid #ececec;
+}
+
+.photo-cards {
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
   justify-content: space-between;
+  text-align: start;
+}
+.card {
+  flex-basis: 370px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  line-height: 0px;
+  background-color: #ffffff;
+  justify-content: space-between;
+}
+.cards {
+  padding: 20px 24px;
+  border-bottom: 1px solid#eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
