@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -11,163 +16,178 @@
     />
   </head>
   <body>
-    <header class="page-header">
-      <a href="./index.html" class="logo-link link"
-        ><span class="logo-item">Web</span>Studio</a
-      >
-      <nav>
-        <ul class="unstyled-list">
-          <li>
-            <a class="main-nav-link link" href="studio.html" target="_blank"
-              >Studio</a
+      <header class="page-header">
+        <div class="container"></div>
+        <a href="./index.html" class="logo-link link"
+          ><span class="logo-item">Web</span>Studio</a
+        >
+        <nav class="nav-list">
+          <ul class="main-nav-list unstyled-list">
+            <li class="main-nav-item">
+              <a class="main-nav-link link" href="studio.html" target="_blank"
+                >Studio</a
+              >
+            </li>
+            <li class="main-nav-item">
+              <a
+                class="main-nav-link link"
+                href="portofolio.html"
+                target="_blank"
+                >Portofolio</a
+              >
+            </li>
+            <li class="main-nav-item">
+              <a class="main-nav-link link" href="Contacts.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contact-list unstyled-list">
+          <li class="contact-list-item">
+            <a class="contact-nav link" href="info@devstudio.com"
+              >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a class="main-nav-link link" href="portofolio.html" target="_blank"
-              >Portofolio</a
+          <li class="contact-list-item">
+            <a class="contact-nav link" href="tel:+12127724150"
+              >+1 212-772-4150</a
             >
-          </li>
-          <li>
-            <a class="main-nav-link link" href="Contacts.html">Contacts</a>
           </li>
         </ul>
-      </nav>
-      <ul class="unstyled-list">
-        <li>
-          <a class="contact-nav link" href="info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="contact-nav link" href="tel:+12127724150"
-            >+1 212-772-4150</a
-          >
-        </li>
-      </ul>
-    </header>
+        </div>
+      </header>
     <main>
-      <section class="principal-title">
-        <!--PRINCIPAL TITLE-->
-        <h1 class="big-title">
-          EFFECTIVE SOLUTIONS FOR <br />
-          YOUR BUSINESS
-        </h1>
-        <button class="button-title" type="button">Request our service</button>
-      </section>
-      <section>
-        <!-- Qualities -->
-        <ul class="unstyled-list">
-          <li>
-            <h4 class="qualities-list">ATTENTION TO DETAILS</h4>
-            <p class="text-qualities">
-              We go into all the details and processes <br />
-              of your business to develop a <br />
-              customized solution. <br />
-            </p>
-          </li>
-          <li>
-            <h4 class="qualities-list">PUNCTUALITY</h4>
-            <p class="text-qualities">
-              With us, you can feel safe and secure. <br />
-              An important principle of the company: <br />
-              respect your time and deadlines. <br />
-            </p>
-          </li>
-          <li>
-            <h4 class="qualities-list">PLANNING</h4>
-            <p class="text-qualities">
-              You will be able to observe and <br />
-              participate in every phase of solution <br />
-              development and implementation. <br />
-            </p>
-          </li>
-          <li>
-            <h4 class="qualities-list">MODERN TECHNOLOGIES</h4>
-            <p class="text-qualities">
-              We use innovative tools to solve <br />
-              assigned tasks. It's time to simplify work <br />
-              processes. <br />
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <!-- WHAT WE DO-->
-        <h2 class="sub-title-we-do">WHAT WE DO</h2>
-        <h3 hidden>Image gallery</h3>
-        <ul class="unstyled-list">
-          <li>
-            <img
-              src="images/images/img4.jpg"
-              alt="typing"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="images/images/img5.jpg"
-              alt="phone"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="images/images/img6.jpg"
-              alt="tablet"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
-      </section>
-      <section class="our-team-section">
-        <!--  OUR TEAM -->
-        <h2 class="our-team">OUR TEAM</h2>
-        <ul class="unstyled-list">
-          <li>
-            <img
-              src="images/images/man1.jpg"
-              alt="Christopher Walker is a Product Designer"
-              width="270"
-              height="260"
-            />
-            <h4 class="agent-person">Christopher Walker</h4>
-            <p class="ocupation-person">Product Designer</p>
-          </li>
-          <li>
-            <img
-              src="images/images/women2.jpg"
-              alt="Kylie Evans is a Developer"
-              width="270"
-              height="260"
-            />
-            <h4 class="agent-person">Kylie Evans</h4>
-            <p class="ocupation-person">Frontend Developer</p>
-          </li>
-          <li>
-            <img
-              src="images/images/man3.jpg"
-              alt="Ryan Harris "
-              width="270"
-              height="260"
-            />
-            <h4 class="agent-person">Ryan Harris</h4>
-            <p class="ocupation-person">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="images/images/man4.jpg"
-              alt="Tyler Moore is Designer"
-              width="270"
-              height="260"
-            />
-            <h4 class="agent-person">Tyler Moore</h4>
-            <p class="ocupation-person">UI Designer</p>
-          </li>
-        </ul>
-      </section>
+      <div class="principal-title">
+        <div class="container">
+          <!--PRINCIPAL TITLE-->
+          <h1 class="big-title">
+            EFFECTIVE SOLUTIONS FOR <br />
+            YOUR BUSINESS
+          </h1>
+          <button class="button-title" type="button">
+            Request our service
+          </button>
+        </div>
+      </div>
+      <div class="container">
+        <section class="qualities">
+          <!-- Qualities -->
+          <ul class="unstyled-list qualities-listlist">
+            <li class="qualities-listlist-item">
+              <h4 class="qualities-list">ATTENTION TO DETAILS</h4>
+              <p class="text-qualities">
+                We go into all the details and processes <br />
+                of your business to develop a <br />
+                customized solution. <br />
+              </p>
+            </li>
+            <li class="qualities-listlist-item">
+              <h4 class="qualities-list">PUNCTUALITY</h4>
+              <p class="text-qualities">
+                With us, you can feel safe and secure. <br />
+                An important principle of the company: <br />
+                respect your time and deadlines. <br />
+              </p>
+            </li>
+            <li class="qualities-listlist-item">
+              <h4 class="qualities-list">PLANNING</h4>
+              <p class="text-qualities">
+                You will be able to observe and <br />
+                participate in every phase of solution <br />
+                development and implementation. <br />
+              </p>
+            </li>
+            <li class="qualities-listlist-item">
+              <h4 class="qualities-list">MODERN TECHNOLOGIES</h4>
+              <p class="text-qualities">
+                We use innovative tools to solve <br />
+                assigned tasks. It's time to simplify work <br />
+                processes. <br />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="container">
+        <section class="what-we-do">
+          <!-- WHAT WE DO-->
+          <h2 class="sub-title-we-do">WHAT WE DO</h2>
+          <h3 hidden>Image gallery</h3>
+          <ul class="unstyled-list do-list">
+            <li class="do-list-item">
+              <img
+                src="images/images/img4.jpg"
+                alt="typing"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="do-list-item">
+              <img
+                src="images/images/img5.jpg"
+                alt="phone"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="do-list-item">
+              <img
+                src="images/images/img6.jpg"
+                alt="tablet"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="container grey-bg">
+        <section class="our-team-section">
+          <!--  OUR TEAM -->
+          <h2 class="our-team">OUR TEAM</h2>
+          <ul class="unstyled-list team-list">
+            <li class="team-list-item">
+              <img
+                src="images/images/man1.jpg"
+                alt="Christopher Walker is a Product Designer"
+                width="270"
+                height="260"
+              />
+              <h4 class="agent-person">Christopher Walker</h4>
+              <p class="ocupation-person">Product Designer</p>
+            </li>
+            <li class="team-list-item">
+              <img
+                src="images/images/women2.jpg"
+                alt="Kylie Evans is a Developer"
+                width="270"
+                height="260"
+              />
+              <h4 class="agent-person">Kylie Evans</h4>
+              <p class="ocupation-person">Frontend Developer</p>
+            </li>
+            <li class="team-list-item">
+              <img
+                src="images/images/man3.jpg"
+                alt="Ryan Harris "
+                width="270"
+                height="260"
+              />
+              <h4 class="agent-person">Ryan Harris</h4>
+              <p class="ocupation-person">Marketing</p>
+            </li>
+            <li class="team-list-item">
+              <img
+                src="images/images/man4.jpg"
+                alt="Tyler Moore is Designer"
+                width="270"
+                height="260"
+              />
+              <h4 class="agent-person">Tyler Moore</h4>
+              <p class="ocupation-person">UI Designer</p>
+            </li>
+          </ul>
+        </section>
+      </div>
     </main>
     <!-- Footer section -->
     <footer class="footer-section">
