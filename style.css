@@ -5,17 +5,14 @@
   --background-grey: #2f303a;
   --background-button: #f5f4fa;
 }
-
 body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
   color: #757575;
 }
-
 .unstyled-list {
   list-style-type: none;
 }
-
 * {
   margin-block-start: 0;
   margin-block-end: 0;
@@ -23,54 +20,37 @@ body {
   margin-inline-end: 0;
   padding-inline-start: 0;
 }
-
 .container {
   width: 1200px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
-
 .grey-bg {
   background-color: var(--background-button);
 }
-
 /* Header part */
-
-.page-header {
-  background-color: #ffffff;
-  display: flex;
-  width: 1200px;
-  margin: 0 auto;
-  list-style-type: none;
-}
-
 .page-header {
   display: block;
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
 }
-
 .page-header > .container {
   display: flex;
 }
-
-.main-nav-list {
-  display: flex;
-  gap: 50px;
-}
-
 .nav-list {
   margin-top: 32px;
   margin-bottom: 32px;
   gap: 50px;
 }
-
 .main-nav-item {
   display: inline-block;
   flex-shrink: 1;
   flex-grow: 0;
   justify-content: space-between;
 }
-
+.main-nav-list {
+  display: flex;
+  gap: 50px;
+}
 .contact-list {
   display: flex;
   gap: 40px;
@@ -78,13 +58,11 @@ body {
   margin-top: 32px;
   margin-bottom: 32px;
 }
-
 .contact-list-item {
   display: inline-block;
-  flex-grow: o;
+  flex-grow: 0;
   flex-shrink: 1;
 }
-
 .logo-link {
   color: #000000;
   font-family: "Raleway", sans-serif;
@@ -95,11 +73,9 @@ body {
   padding-top: 24px;
   padding-bottom: 25px;
 }
-
 .logo-item {
   color: var(--navlink-color);
 }
-
 .main-nav-link {
   color: #212121;
   font-weight: 500;
@@ -107,17 +83,14 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-
 .main-nav-link:hover,
 .main-nav-link:active,
 .main-nav-link:focus {
   color: var(--navlink-color);
 }
-
 .link {
   text-decoration: none;
 }
-
 .contact-nav {
   color: #757575;
   font-weight: 500;
@@ -125,35 +98,27 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-
 .contact-nav:hover,
 .contact-nav:active,
 .contact-nav:focus {
   color: var(--navlink-color);
 }
-
 /* Principal title */
-
 .principal-title {
   background-color: #2f303a;
-}
-
-.principal-title {
   display: block;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
 }
-
 .big-title {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 60px;
   letter-spacing: 0.06em;
   text-align: center;
 }
-
 .button-title {
   color: #ffffff;
   font-weight: 700;
@@ -164,18 +129,17 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-
-.button-title,
 .button-title:hover,
+.button-title:focus,
 .button-title:focus {
   background-color: #188ce8;
+  color: #ffffff;
 }
-
 .button-title {
   align-items: center;
   border: none;
   justify-content: space-around;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 [type="button"] {
   border-radius: 4px;
@@ -185,57 +149,46 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
-
 .main-section {
   background-color: #e5e5e5;
 }
-
 /* Qualities */
-
 .qualities {
   margin: 0 auto;
   padding: 94px 0;
 }
-
 .qualities-listlist {
   display: flex;
   gap: 30px;
   justify-content: space-between;
 }
-
 .qualities-listlist-item {
   flex-basis: 270px;
   flex-grow: 0;
   flex-shrink: 1;
 }
-
 .qualities-list {
   color: var(--title-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 }
-
 .text-qualities {
   color: var(--text-color);
   font-size: 14px;
   line-height: 1.71;
 }
-
 /* What we do */
-
 .what-we-do {
   width: 1200px;
   margin: 0 auto;
   padding: 94px 0;
 }
-
 .do-list {
   display: flex;
   gap: 30px;
   justify-content: space-between;
 }
-
 .do-list-item {
   flex-basis: 370px;
   flex-grow: 0;
@@ -243,7 +196,6 @@ body {
   text-align: center;
   padding-bottom: 94px;
 }
-
 .sub-title-we-do {
   color: var(--title-color);
   font-weight: 700;
@@ -253,21 +205,17 @@ body {
   padding-bottom: 50px;
   padding-top: 94px;
 }
-
 /* Our team */
-
 .our-team-section {
   margin: 0 auto;
   padding: 94px 0;
   background-color: #f5f4fa;
 }
-
 .team-list {
   display: flex;
   gap: 30px;
   justify-content: space-between;
 }
-
 .team-list-item {
   flex-basis: 270px;
   flex-grow: 0;
@@ -278,7 +226,6 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
 .our-team {
   color: var(--title-color);
   font-weight: 700;
@@ -287,7 +234,6 @@ body {
   margin-bottom: 50px;
   text-align: center;
 }
-
 .agent-person {
   color: var(--title-color);
   font-weight: 500;
@@ -298,73 +244,59 @@ body {
   margin-left: 62px;
   margin-right: 62px;
 }
-
 .ocupation-person {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   margin-bottom: 30px;
 }
-
 /* Footer section */
-
 .footer-section {
   background-color: var(--background-grey);
 }
-
 .footer-logo-link {
   color: #ffffff;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
-
 .address-nav-location {
   color: #ffffff;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
-
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
-
 .footer-section {
   padding: 60px 0px;
 }
-
 .adrees-nav {
   margin-top: 28px;
   gap: 10px;
 }
-
 .footer-list {
   flex-direction: column;
 }
-
 .footer-list > .footer-list-item {
   margin-bottom: 10px;
 }
-
 .footer-list-item {
   flex-basis: 270px;
   flex-grow: 0;
   flex-shrink: 1;
   text-align: start;
 }
-
 .footer-contacts:focus,
 .footer-contacts:active,
 .footer-contacts:hover {
   color: var(--navlink-color);
 }
-
 /* Portofolio */
-
 .but-all {
   color: var(--title-color);
   font-weight: 500;
@@ -374,14 +306,12 @@ body {
   padding: 6px 22px;
   line-height: 26px;
 }
-
 .but-all:hover,
 .but-all:focus,
 .but-all:focus {
   color: white;
   background-color: var(--navlink-color);
 }
-
 .title-foto {
   color: var(--title-color);
   font-weight: 700;
@@ -389,33 +319,28 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-
 .potofolio-section {
   display: flex;
   gap: 8px;
   margin-bottom: 56px;
   justify-content: center;
 }
-
 .portofolio-section-button {
   flex-basis: auto;
   flex-grow: 0;
   flex-shrink: 1;
   text-align: center;
 }
-
 .text-foto {
   color: var(--text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
 }
-
 .section {
   padding: 94px 0px;
   border-top: 1px solid #ececec;
 }
-
 .photo-cards {
   display: flex;
   flex-wrap: wrap;
