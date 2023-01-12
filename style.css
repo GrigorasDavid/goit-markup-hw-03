@@ -273,7 +273,7 @@ body {
   line-height: 1.71;
 }
 .footer-section {
-  padding: 60px 0px;
+  padding: 60px;
 }
 .adrees-nav {
   margin-top: 28px;
@@ -347,6 +347,7 @@ body {
   gap: 30px;
   justify-content: space-between;
   text-align: start;
+  margin: 60px;
 }
 .card {
   flex-basis: 370px;
